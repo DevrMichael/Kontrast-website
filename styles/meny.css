@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background-size: 100%;
+    background-position: top;
+    font-family: 'Montserrat', sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust:100%
+}
+.menyTopContainer{
+    background-image: url("../img/meny-forside.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.menyTextBoks{
+    width: 100%;
+    background: url("../img/meny-bakgrunn.jpeg");
+}
+.menyTextBoks div{
+    text-align: center;
+}
+.menyTextBoks hr{
+    width: 20%;
+    border: 1px black solid;
+}
+.menyTextBoks p{
+    margin: 0 12em;
+    line-height: 2em;
+}
+.menyToppText{
+    text-align: center;
+    padding: 2em;
+}
+.vinkartBtn{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 28px;
+    margin: 110px;
+    background-color: orange;
+    border: none;
+}
