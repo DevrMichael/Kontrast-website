@@ -347,3 +347,13 @@ footer img {
     display: none;
   }
 }
+@media screen and (max-width: 800px) {
+  .footerSocials{
+    display: block;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footerSocials a{
+    line-height: 2em;
+  }
+}
