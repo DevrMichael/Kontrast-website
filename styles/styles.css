@@ -51,7 +51,13 @@ a{
 .navText{
     width: 300px;
     margin: auto;
-    margin-right: 0;
+    margin-left: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+.navText :first-child{
+    font-weight: bolder;
+    color: orange;
 }
 .navTextLinks{
     position: relative;
